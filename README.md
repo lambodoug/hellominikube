@@ -6,7 +6,7 @@ A simple Python 3 Flask app with code to run the app in a container in minikube 
 ## Initial checkout and setup of codebase
 
 * Open terminal and move to a suitable directory on your machine
-* Run ``git clone git@github.com:iandouglas/hellominikube.git``
+* Run ``git clone git@github.com:lambodoug/hellominikube.git``
 * Run ``cd hellominikube``
 
 ### Installation
@@ -54,7 +54,7 @@ Please note that if you have not followed the previous Installation steps above 
 
 ## Project Docker Hub Builds
 
-To build the image that will be deployed to our minikube instance, we use [Docker Hub's](https://hub.docker.com/r/iandouglas/hellominikube)
+To build the image that will be deployed to our minikube instance, we use [Docker Hub's](https://hub.docker.com/r/lambodoug/hellominikube)
 GitHub integration. This integration allows Docker Hub to automatically detect changes to the project's ``Dockerfile`` and build and tag relevant
 versions of the build to store in their registry. Obviously for private projects, images would not be hosted on a public docker hub. However, for this
 open source example project it will be fine.
