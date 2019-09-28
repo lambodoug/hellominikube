@@ -58,8 +58,3 @@ To build the image that will be deployed to our minikube instance, we use [Docke
 GitHub integration. This integration allows Docker Hub to automatically detect changes to the project's ``Dockerfile`` and build and tag relevant
 versions of the build to store in their registry. Obviously for private projects, images would not be hosted on a public docker hub. However, for this
 open source example project it will be fine.
-
-## Versioning
-
-This project uses [git](https://git-scm.com/) for versioning. For the available versions,
-see the [tags on this repository](https://github.com/iandouglas/hellominikube/tags).
