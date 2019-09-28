@@ -1,0 +1,3 @@
+*helloworld/tests/
+*helloworld/.pytest_cache
+*helloworld/__pycache__
