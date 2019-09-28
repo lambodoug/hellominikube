@@ -25,7 +25,7 @@ Please ensure that you have ``kubectl`` and ``minikube`` installed on your syste
 Once the steps above have been run, you should have a virtualenv setup with ansible and test dependencies installed. Your local
 instance of ``minikube`` will have also been, cleaned, reset and started ready to accept our deployment. The next step is to run
 The make command which will execute ansible to run configuration management on the cluster. This includes installing our kubernetes namespace and our
-kubernetes deployment and service. We are just going to use ansible to do everything.Let's run the commands below.
+kubernetes deployment and service. We are just going to use ansible to do everything. Let's run the commands below.
 
 * ``make run_ansible``
 
