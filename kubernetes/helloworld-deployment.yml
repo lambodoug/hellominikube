@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: helloworld
-  namespace: superduperminikuber
+  namespace: hellominikube
 spec:
   replicas: 4
   selector:
@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: helloworld
-          image: robcharlwood/super-duper-minikuber:latest
+          image: lambodoug/hellominikube:latest
           ports:
           - containerPort: 8080
           readinessProbe:
