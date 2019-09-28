@@ -1,5 +1,5 @@
 FROM python:3.7.3-alpine3.10
-LABEL maintainer="100@yahoo.com"
+LABEL maintainer="iandouglas100@yahoo.com"
 
 # allow user and source root to be passed as args. Default to sensibles
 ARG app_user=hellominikube
