@@ -1,0 +1,11 @@
+---
+- hosts: local
+  tasks:
+    - name: Set kubectl context to minikube
+      command: kubectl config use-context minikube
+    - name: Create helloworld namespace
+      command: kubectl apply -f ./kubernetes/helloworld-namespace.yml
+    - name: Create helloworld deployment
+      command: kubectl apply -f ./kubernetes/helloworld-deployment.yml
+    - name: Create helloworld load balancing service
+      command: kubectl apply -f ./kubernetes/helloworld-service.yml
