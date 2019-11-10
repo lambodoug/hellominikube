@@ -9,3 +9,6 @@
       command: kubectl apply -f ./kubernetes/helloworld-deployment.yml
     - name: Create helloworld load balancing service
       command: kubectl apply -f ./kubernetes/helloworld-service.yml
+
+
+
